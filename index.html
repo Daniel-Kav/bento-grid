@@ -2,41 +2,150 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Bento grid</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Social Media Manager - Create, Schedule, and Grow</title>
 </head>
 <body>
+  <main class="bento-grid">
+    <!-- Create and schedule content card -->
+    <div class="card create-schedule-card">
+      <div class="card-content">
+        <h2>Create and schedule content <span class="accent">quicker.</span></h2>
+        <button class="create-post-btn">Create Post <span class="arrow">→</span></button>
+      </div>
+    </div>
 
-  Social Media 10x Faster with AI
-  Over 4,000 5-star reviews
+    <!-- Social Media 10x Faster with AI card -->
+    <div class="card main-card">
+      <div class="card-content">
+        <h1>Social Media <span class="highlight">10x</span><br>Faster with AI</h1>
+        <div class="stars">★ ★ ★ ★ ★</div>
+        <p>Over 4,000 5-star reviews</p>
+      </div>
+    </div>
 
-  Manage multiple accounts and platforms.
+    <!-- Schedule to social media card -->
+    <div class="card schedule-card">
+      <div class="card-content">
+        <h2>Schedule to social media.</h2>
+        <div class="analytics-chart">
+          <div class="chart-header">
+            <p>Best Time to Post</p>
+            <div class="days">
+              <span class="active-day">Mon</span>
+              <span>Tue</span>
+              <span>Wed</span>
+              <span>Thu</span>
+            </div>
+          </div>
+          <p class="most-active">Most Active</p>
+          <div class="chart-bars">
+            <div class="bar" style="height: 60%"></div>
+            <div class="bar" style="height: 70%"></div>
+            <div class="bar" style="height: 100%"></div>
+            <div class="bar" style="height: 85%"></div>
+            <div class="bar" style="height: 60%"></div>
+          </div>
+          <div class="time-slots">
+            <span>12a</span>
+            <span>3a</span>
+            <span>6a</span>
+            <span>9a</span>
+            <span>12p</span>
+          </div>
+        </div>
+        <p class="optimize-text">Optimize post timings to publish content at the perfect time for your audience.</p>
+      </div>
+    </div>
 
-  Maintain a consistent posting schedule.
+    <!-- Write your content using AI card -->
+    <div class="card ai-content-card">
+      <div class="card-content">
+        <h2>Write your content using AI.</h2>
+        <div class="chat-box">
+          <div class="user-message">
+            Give me 5 tips to growth my follower on Instagram
+          </div>
+          <div class="ai-message">
+            Certainly! Here are five tips to help you grow your Instagram followers...
+          </div>
+        </div>
+      </div>
+    </div>
 
-  Schedule to social media.
-  Optimize post timings to publish content at the perfect time for your audience.
-  
-  Grow followers with non-stop content.
+    <!-- Multiple accounts card -->
+    <div class="card multiple-accounts-card">
+      <div class="card-content">
+        <div class="account-badges">
+          <div class="account instagram">
+            <span class="account-icon">📷</span>
+            <span>@YourCo</span>
+            <span>12K Followers</span>
+          </div>
+          <div class="account twitter">
+            <span class="account-icon">🐦</span>
+            <span>@YourCo</span>
+            <span>8K Followers</span>
+          </div>
+        </div>
+        <h2>Manage multiple accounts and platforms.</h2>
+      </div>
+    </div>
 
-  >56% faster audience growth
-  
-  Create and schedule content quicker.
+    <!-- Growth stats card -->
+    <div class="card growth-stats-card">
+      <div class="card-content">
+        <h2>>56%</h2>
+        <p>faster audience growth</p>
+        <div class="avatars">
+          <div class="avatar"></div>
+          <div class="avatar"></div>
+          <div class="avatar"></div>
+        </div>
+      </div>
+    </div>
 
-  Write your content using AI.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <!-- Consistent posting card -->
+    <div class="card consistent-posting-card">
+      <div class="card-content">
+        <h2>Maintain a consistent posting schedule.</h2>
+        <div class="calendar">
+          <div class="calendar-header">
+            <span>August 2024</span>
+            <span class="weekly">Weekly</span>
+          </div>
+          <div class="calendar-days">
+            <div class="day-item"><span class="checkmark">✓</span></div>
+            <div class="day-item"><span class="checkmark">✓</span></div>
+            <div class="day-item"><span class="checkmark">✓</span></div>
+            <div class="day-item"><span class="checkmark">✓</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grow followers card -->
+    <div class="card grow-followers-card">
+      <div class="card-content">
+        <div class="growth-stats">
+          <div class="stat-box">
+            <p>Follower Growth</p>
+            <h3>20,642</h3>
+            <span class="growth-percentage">+80%</span>
+            <div class="mini-chart"></div>
+          </div>
+          <div class="stat-box">
+            <p>Followers</p>
+            <h3>89,532</h3>
+            <span class="growth-percentage">+10%</span>
+          </div>
+        </div>
+        <h2>Grow followers with non-stop content.</h2>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
