@@ -2,148 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Social Media Manager - Create, Schedule, and Grow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <title>Bento grid</title>
 </head>
 <body>
-  <main class="bento-grid">
-    <!-- Create and schedule content card -->
-    <div class="card create-schedule-card">
-      <div class="card-content">
-        <h2>Create and schedule content <span class="accent">quicker.</span></h2>
-        <button class="create-post-btn">Create Post <span class="arrow">→</span></button>
-      </div>
+  <div class="container">
+    <div class="social-media inside-div">
+      <p  style="font-size: 42px;margin:24px;line-height: 1;" >
+        Social Media <span style="color: hsl(39, 100%, 71%);">10x</span> Faster with AI
+      </p>
+      <img src="./assets/images/illustration-five-stars.webp" alt="5star" class="star-image">
+      <p style="margin-top: 4px;margin-bottom: 24px; color: rgb(219, 219, 219);">
+        Over 4,000 5-star reviews
+      </p>
     </div>
-
-    <!-- Social Media 10x Faster with AI card -->
-    <div class="card main-card">
-      <div class="card-content">
-        <h1>Social Media <span class="highlight">10x</span><br>Faster with AI</h1>
-        <div class="stars">★ ★ ★ ★ ★</div>
-        <p>Over 4,000 5-star reviews</p>
-      </div>
+    <div class="multiple-accounts inside-div">
+      <img src="./assets/images/illustration-multiple-platforms.webp" alt="accounts" class="accounts">
+      <p style="margin: 15px;line-height: 1;  font-size: 22px; font-weight: 500;letter-spacing: -1px;">
+        Manage multiple accounts and platforms
+      </p>
     </div>
-
-    <!-- Schedule to social media card -->
-    <div class="card schedule-card">
-      <div class="card-content">
-        <h2>Schedule to social media.</h2>
-        <div class="analytics-chart">
-          <div class="chart-header">
-            <p>Best Time to Post</p>
-            <div class="days">
-              <span class="active-day">Mon</span>
-              <span>Tue</span>
-              <span>Wed</span>
-              <span>Thu</span>
-            </div>
-          </div>
-          <p class="most-active">Most Active</p>
-          <div class="chart-bars">
-            <div class="bar" style="height: 60%"></div>
-            <div class="bar" style="height: 70%"></div>
-            <div class="bar" style="height: 100%"></div>
-            <div class="bar" style="height: 85%"></div>
-            <div class="bar" style="height: 60%"></div>
-          </div>
-          <div class="time-slots">
-            <span>12a</span>
-            <span>3a</span>
-            <span>6a</span>
-            <span>9a</span>
-            <span>12p</span>
-          </div>
-        </div>
-        <p class="optimize-text">Optimize post timings to publish content at the perfect time for your audience.</p>
-      </div>
+    <div class="maintain inside-div">
+      <p style=" font-size: 24px; font-weight: 500;margin: 15px;
+                      margin-right: 20px;line-height: 1;letter-spacing: -1px;">
+        Maintain a consistent posting schedule
+      </p>
+      <img src="./assets/images/illustration-consistent-schedule.webp" alt="schedule" class="schedule-image">
     </div>
-
-    <!-- Write your content using AI card -->
-    <div class="card ai-content-card">
-      <div class="card-content">
-        <h2>Write your content using AI.</h2>
-        <div class="chat-box">
-          <div class="user-message">
-            Give me 5 tips to growth my follower on Instagram
-          </div>
-          <div class="ai-message">
-            Certainly! Here are five tips to help you grow your Instagram followers...
-          </div>
-        </div>
-      </div>
+    <div class="schedule inside-div">
+      <p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;letter-spacing: -1px;margin-left: 10px;">
+        Schedule to social media.
+      </p>
+      <img src="./assets/images/illustration-schedule-posts.webp" alt="schedule-posts" class="schedule-posts-image">
+      <p style="font-size: 16px;text-align: center;margin: 20px; margin-top: 0px;margin-bottom: 25px; line-height: 1;">
+        Optimize post timings to publish content at the perfect time for your audience.
+      </p>
     </div>
-
-    <!-- Multiple accounts card -->
-    <div class="card multiple-accounts-card">
-      <div class="card-content">
-        <div class="account-badges">
-          <div class="account instagram">
-            <span>@YourCo</span>
-            <span>12K Followers</span>
-          </div>
-          <div class="account twitter">
-            <span>@YourCo</span>
-            <span>8K Followers</span>
-          </div>
-        </div>
-        <h2>Manage multiple accounts and platforms.</h2>
-      </div>
+    <div class="grow inside-div">
+      <img src="./assets/images/illustration-grow-followers.webp" alt="grow" class="grow-follower-image">
+      <p style="margin: 0px 40px 15px 40px;text-align: center;
+                      font-size: 28px;font-weight: 500;line-height: 1;letter-spacing: -1px;">
+        Grow followers with non-stop content.
+      </p>
     </div>
-
-    <!-- Growth stats card -->
-    <div class="card growth-stats-card">
-      <div class="card-content">
-        <h2>>56%</h2>
-        <p>faster audience growth</p>
-        <div class="avatars">
-          <div class="avatar"></div>
-          <div class="avatar"></div>
-          <div class="avatar"></div>
-        </div>
-      </div>
+    <div class="percentage inside-div">
+      <p style="margin: 10px 0 0 15px;font-size: 32px;font-weight: 600;">>56%</p>
+      <p style="margin: 0px; margin-left: 15px;">faster audience growth</p>
+      <img src="./assets/images/illustration-audience-growth.webp" alt="growth" class="audience-growth-image">
     </div>
-
-    <!-- Consistent posting card -->
-    <div class="card consistent-posting-card">
-      <div class="card-content">
-        <h2>Maintain a consistent posting schedule.</h2>
-        <div class="calendar">
-          <div class="calendar-header">
-            <span>August 2024</span>
-            <span class="weekly">Weekly</span>
-          </div>
-          <div class="calendar-days">
-            <div class="day-item"><span class="checkmark">✓</span></div>
-            <div class="day-item"><span class="checkmark">✓</span></div>
-            <div class="day-item"><span class="checkmark">✓</span></div>
-            <div class="day-item"><span class="checkmark">✓</span></div>
-          </div>
-        </div>
-      </div>
+    <div class="create inside-div">
+      <p style="font-size: 28px;font-weight: 600;margin: 20px 20px 15px 20px;line-height: 1;letter-spacing: -1px;">
+        Create and schedule content <span style="font-style: italic; color: hsl(256, 67%, 59%);">quicker</span>
+      </p>
+      <img src="./assets/images/illustration-create-post.webp" alt="create" class="create-image">
     </div>
-
-    <!-- Grow followers card -->
-    <div class="card grow-followers-card">
-      <div class="card-content">
-        <div class="growth-stats">
-          <div class="stat-box">
-            <p>Follower Growth</p>
-            <h3>20,642</h3>
-            <span class="growth-percentage">+80%</span>
-            <div class="mini-chart"></div>
-          </div>
-          <div class="stat-box">
-            <p>Followers</p>
-            <h3>89,532</h3>
-            <span class="growth-percentage">+10%</span>
-          </div>
-        </div>
-        <h2>Grow followers with non-stop content.</h2>
-      </div>
+    <div class="write inside-div">
+      <p style="font-size: 28px;font-weight: 600;line-height: 1;letter-spacing: -1px;margin: 20px;">
+        Write your content using AI.
+      </p>
+      <img src="./assets/images/illustration-ai-content.webp" alt="write" class="write-image">
     </div>
-  </main>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">Daniel kavatha</a>.
+    </footer>
+  </div>
 </body>
 </html>
